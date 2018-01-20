@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Wear Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Thanks for downloading Calculator Wear, it should be pushed automatically though Google Play\'s Android Wear App directly to your android wear device :)</string>
+    <string name="rate">Rate</string>
+
+</resources>

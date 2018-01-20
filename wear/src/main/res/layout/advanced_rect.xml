@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingEnd="4dp"
+    android:paddingStart="4dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/linearLayout0"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <ca.mmess.calculatorwear.CalculatorDisplay
+            android:id="@+id/adv_display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:gravity="center_vertical|right"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sinActionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="sin"
+            android:textSize="12dp"
+            android:onClick="onAdvButtonPushed" />
+
+        <Button
+            android:id="@+id/cosActionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="cos"
+            android:textSize="12dp"
+            android:onClick="onAdvButtonPushed" />
+
+        <Button
+            android:id="@+id/tanActionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="tan"
+            android:textSize="12dp"
+            android:onClick="onAdvButtonPushed" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/lnActionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="ln"
+            android:textSize="12dp"
+            android:onClick="onAdvButtonPushed" />
+
+        <Button
+            android:id="@+id/logActionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="log"
+            android:textSize="12dp"
+            android:onClick="onAdvButtonPushed" />
+
+        <Button
+            android:id="@+id/remainderActionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="%"
+            android:textSize="12dp"
+            android:onClick="onOperationPushed" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/piActionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="\u03c0"
+            android:textSize="12dp"
+            android:onClick="onAdvButtonPushed"/>
+
+        <Button
+            android:id="@+id/eActionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="e"
+            android:textSize="12dp"
+            android:onClick="onAdvButtonPushed" />
+
+        <Button
+            android:id="@+id/powerActionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="^"
+            android:textSize="12dp"
+            android:onClick="onOperationPushed" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bracketOnActionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="("
+            android:textSize="12dp"
+            android:onClick="onAdvButtonPushed" />
+
+        <Button
+            android:id="@+id/bracketOffActionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text=")"
+            android:textSize="12dp"
+            android:onClick="onAdvButtonPushed" />
+
+        <Button
+            android:id="@+id/squareRootActionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="\u221a"
+            android:textSize="12dp"
+            android:onClick="onAdvButtonPushed" />
+
+    </LinearLayout>
+
+</LinearLayout>

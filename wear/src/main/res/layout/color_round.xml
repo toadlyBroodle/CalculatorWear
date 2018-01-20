@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1"
+    android:paddingEnd="4dp"
+    android:paddingStart="4dp"
+    android:gravity="center_vertical">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_dblue"
+            android:layout_weight="1"
+            android:onClick="onColour" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_dpurp"
+            android:layout_weight="1"
+            android:onClick="onColour" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_dblack"
+            android:layout_weight="1"
+            android:onClick="onColour" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:id="@+id/linearLayout3">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_lblue"
+            android:layout_weight="1"
+            android:onClick="onColour" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_lpurp"
+            android:layout_weight="1"
+            android:onClick="onColour" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_lgrey"
+            android:layout_weight="1"
+            android:onClick="onColour" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:id="@+id/linearLayout4" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_dgreen"
+            android:layout_weight="1"
+            android:onClick="onColour" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_dorange"
+            android:layout_weight="1"
+            android:onClick="onColour" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_dred"
+            android:layout_weight="1"
+            android:onClick="onColour" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:id="@+id/linearLayout5" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_lgreen"
+            android:layout_weight="1"
+            android:onClick="onColour" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_lorange"
+            android:layout_weight="1"
+            android:onClick="onColour" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_lred"
+            android:layout_weight="1"
+            android:onClick="onColour" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
